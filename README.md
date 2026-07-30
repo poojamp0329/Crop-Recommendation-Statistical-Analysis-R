@@ -69,7 +69,7 @@ crop-recommendation-statistical-analysis/
 │       └── Statistical-Analysis-with-R.Rproj
 ├── Images/
 │   └── *.png
-├── report/
+├── Report/
 │   └── Crop_Recommendation_Statistical_Analysis_Report.pdf
 └── README.md
 ```
@@ -170,7 +170,7 @@ install.packages(c("tidyverse", "ggplot2", "psych", "corrplot",
 
 ## 📊 Results
 
-The dataset is clean, balanced, and well-structured. Soil pH is the most stable variable; potassium the most variable and right-skewed. Phosphorus and potassium are the only strongly related pair (r = 0.74); all other environmental variables are weakly correlated or statistically independent — a favorable structure for downstream classification modeling. Full statistical tables and figure-by-figure interpretation are in the [project report](report/Crop_Recommendation_Statistical_Analysis_Report.pdf).
+The dataset is clean, balanced, and well-structured. Soil pH is the most stable variable; potassium the most variable and right-skewed. Phosphorus and potassium are the only strongly related pair (r = 0.74); all other environmental variables are weakly correlated or statistically independent — a favorable structure for downstream classification modeling. Full statistical tables and figure-by-figure interpretation are in the [project report](Report/Crop_Recommendation_Statistical_Analysis_Report.pdf).
 
 ---
 
